@@ -1,0 +1,118 @@
+* {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+html,
+body {
+  width: 100%;
+  height: 100%;
+}
+
+.xianshi {
+  position: fixed;
+  display: none;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.4);
+}
+
+.xianshi div {
+  width: 50%;
+  height: 100px;
+  margin: 200px auto;
+  background: #fff;
+}
+
+.box {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+}
+
+.box header {
+  width: 100%;
+  height: 50px;
+}
+
+.box header div {
+  line-height: 50px;
+  text-align: center;
+  color: #fff;
+  background: orange;
+}
+
+.box main {
+  width: 100%;
+  flex: 1;
+  background: #eee;
+}
+
+.box main .div {
+  margin: 20px auto;
+  width: 90%;
+  height: 100px;
+  background: #fff;
+  border-radius: 10px;
+  padding-left: 10px;
+}
+
+.box main .div p {
+  line-height: 30px;
+}
+
+.box main .div p span {
+  margin-left: 10px;
+  font-size: 12px;
+}
+
+.box main .div div {
+  width: 100%;
+  padding-left: 0;
+  line-height: 30px;
+}
+
+.box main .div div span {
+  margin-right: 120px;
+}
+
+.box main .div div span i {
+  display: inline-block;
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+  border: 1px solid #000;
+}
+
+.box main .div div span .active {
+  background: orange;
+}
+
+.box main .div div button {
+  background: #fff;
+  border: 1px solid #000;
+  border-radius: 10px;
+  padding: 5px;
+  margin-right: 15px;
+  outline: none;
+}
+
+.box footer {
+  width: 100%;
+  height: 50px;
+}
+
+.box footer div {
+  width: 90%;
+  height: 40px;
+  text-align: center;
+  line-height: 40px;
+  margin: 5px auto;
+  border-radius: 40px;
+  color: #fff;
+  background: orange;
+}

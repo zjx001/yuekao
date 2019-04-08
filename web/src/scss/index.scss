@@ -1,0 +1,104 @@
+* {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+html,
+body {
+    width: 100%;
+    height: 100%;
+}
+
+.xianshi {
+    position: fixed;
+    display: none;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, .4);
+    div {
+        width: 50%;
+        height: 100px;
+        margin: 200px auto;
+        background: #fff;
+    }
+}
+
+.box {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    header {
+        width: 100%;
+        height: 50px;
+        div {
+            line-height: 50px;
+            text-align: center;
+            color: #fff;
+            background: orange;
+        }
+    }
+    main {
+        width: 100%;
+        flex: 1;
+        background: #eee;
+        .div {
+            margin: 20px auto;
+            width: 90%;
+            height: 100px;
+            background: #fff;
+            border-radius: 10px;
+            padding-left: 10px;
+            p {
+                line-height: 30px;
+                span {
+                    margin-left: 10px;
+                    font-size: 12px;
+                }
+            }
+            div {
+                width: 100%;
+                padding-left: 0;
+                line-height: 30px;
+                span {
+                    margin-right: 120px;
+                    i {
+                        display: inline-block;
+                        width: 10px;
+                        height: 10px;
+                        border-radius: 50%;
+                        border: 1px solid #000;
+                    }
+                    .active {
+                        background: orange;
+                    }
+                }
+                button {
+                    background: #fff;
+                    border: 1px solid #000;
+                    border-radius: 10px;
+                    padding: 5px;
+                    margin-right: 15px;
+                    outline: none;
+                }
+            }
+        }
+    }
+    footer {
+        width: 100%;
+        height: 50px;
+        div {
+            width: 90%;
+            height: 40px;
+            text-align: center;
+            line-height: 40px;
+            margin: 5px auto;
+            border-radius: 40px;
+            color: #fff;
+            background: orange;
+        }
+    }
+}

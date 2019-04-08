@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link rel="stylesheet" href="./css/index.css">
+</head>
+
+<body>
+    <div class="xianshi">
+        <div>
+            <p>提示<span class="cha">X</span></p>
+            <button class="queding">确认</button>
+        </div>
+    </div>
+    <div class="box">
+        <header>
+            <div>地址管理</div>
+        </header>
+        <main>
+            <!-- <div class="div">
+                <p>张家兴<span>15561620066</span></p>
+                <p>北京通州</p>
+                <div>
+                    <span><i></i> 设为默认</span>
+                    <button>删除</button>
+                    <button>修改</button>
+                </div>
+            </div> -->
+        </main>
+        <footer>
+            <div>+新建地址</div>
+        </footer>
+    </div>
+</body>
+<script src="./js/libs/require.js"></script>
+<script>
+    require(['./js/main'], function() {
+        require(['index'])
+    })
+</script>
+
+</html>
